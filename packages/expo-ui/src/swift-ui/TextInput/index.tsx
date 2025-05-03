@@ -21,7 +21,7 @@ export type TextInputProps = {
   /**
    * The string that will be rendered before text input has been entered.
    */
-  placeholder?: boolean;
+  placeholder?: string;
   /**
    * If true, the text input can be multiple lines.
    * While the content will wrap, there's no keyboard button to insert a new line.
